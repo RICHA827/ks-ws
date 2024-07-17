@@ -1,0 +1,24 @@
+{
+  "name": "ks-ws",
+  "version": "1.0.0",
+  "main": "keystone.ts",
+  "scripts": {
+    "start": "node keystone.js",
+    "dev": "keystone dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.4",
+    "@keystone-6/auth": "^8.0.0",
+    "@keystone-6/core": "^6.1.0",
+    "@types/node": "^20.14.10",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.16.0",
+    "typescript": "^5.5.3",
+    "ws": "^8.18.0"
+  }
+}
